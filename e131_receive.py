@@ -10,11 +10,11 @@ from lifxlan import LifxLAN
 
 ########## START CONFIG SETTINGS ###########
 
-UNIVERSE = 2 # Which dmx universe it should be listening on
+UNIVERSE = 1 # Which dmx universe it should be listening on
 
 first_channel = 0       # First DMX channel - 1 (to account for array position)
 
-numb_lights = 3     # How many lights you have on your network?  All must be in the DMX data
+numb_lights = 2     # How many lights you have on your network?  All must be in the DMX data
 
 max_bright = 0.8 # Brightness, from 0 - 1
 
