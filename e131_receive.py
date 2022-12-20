@@ -14,7 +14,7 @@ UNIVERSE = 1 # Which dmx universe it should be listening on
 
 first_channel = 0       # First DMX channel - 1 (to account for array position)
 
-num_lights = 2     # How many lights you have on your network?  All must be in the DMX data
+numb_lights = 2     # How many lights you have on your network?  All must be in the DMX data
 
 max_bright = 0.8 # Brightness, from 0 - 1
 
@@ -34,7 +34,7 @@ max_rgb_total = max_rgb_per_color * 3
 override_scaling = 1/(max_rgb_total - override_max_bright_total_rgb)
 # test power control
 print("Discovering lights...")
-lifx = lifxlan(num_lights)
+lifx = lifxlan()
 lights = lifx.get_lights()
 original_powers = lifx.get_power_all_lights()
 original_colors = lifx.get_color_all_lights()
