@@ -34,7 +34,7 @@ max_rgb_total = max_rgb_per_color * 3
 override_scaling = 1/(max_rgb_total - override_max_bright_total_rgb)
 # test power control
 print("Discovering lights...")
-lifx = lifxlan(numb_lights)
+lifx = lifxlan(num_lights)
 lights = lifx.get_lights()
 original_powers = lifx.get_power_all_lights()
 original_colors = lifx.get_color_all_lights()
