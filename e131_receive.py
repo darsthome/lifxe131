@@ -4,7 +4,7 @@ import colorsys
 import signal
 import sys
 
-import sacn
+from sacn import sacn
 from lifxlan import LifxLAN
 
 
