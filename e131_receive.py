@@ -5,7 +5,7 @@ import signal
 import sys
 
 import SACN
-from lifxlan import LifxLAN
+from lifxlan import lifxlan
 
 
 ########## START CONFIG SETTINGS ###########
